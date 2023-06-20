@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="/style.css" />
+
+    <title>Frontend Mentor | E-commerce product page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <img src="/images/logo.svg" alt="" />
+        </div>
+        <ul id="menu">
+          <li>Collections</li>
+          <li>Men</li>
+          <li>Women</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+        <div class="shopping-cart">
+          <img src="/images/icon-cart.svg" alt="" />
+          <div class="cart-num">
+            <p class="cart-num-index">0</p>
+          </div>
+          <img class="avatar" src="/images/image-avatar.png" alt="" />
+        </div>
+
+        <!-- CART -->
+        <div class="cart">
+          <h1>Cart</h1>
+          <hr />
+          <h2 class="empty-cart">Your cart is empty.</h2>
+          <div class="cart-info">
+            <div class="cart-details">
+              <img src="/images/image-product-1-thumbnail.jpg" alt="" />
+              <div class="item-info">
+                <p>Fall Limted Edition sneakers</p>
+                <p>
+                  $<span class="normal-price">125.00</span> x
+                  <span class="num-of-item-cart">1</span> $<span
+                    class="total-price"
+                    >125</span
+                  ><span class="total-price-cent">.00</span>
+                </p>
+              </div>
+              <img class="delete" src="/images/icon-delete.svg" alt="" />
+            </div>
+            <button class="checkout-btn">Checkout</button>
+          </div>
+        </div>
+        <!-- CART -->
+      </nav>
+      <hr />
+      <section>
+        <div class="section-left">
+          <img class="main-img" src="/images/image-product-1.jpg" alt="" />
+          <div class="shoe-img">
+            <ul>
+              <li>
+                <img class="shoes" src="/images/image-product-1.jpg" alt="" />
+              </li>
+              <li>
+                <img class="shoes" src="/images/image-product-2.jpg" alt="" />
+              </li>
+              <li>
+                <img class="shoes" src="/images/image-product-3.jpg" alt="" />
+              </li>
+              <li>
+                <img class="shoes" src="/images/image-product-4.jpg" alt="" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section-right">
+          <h2>Sneaker Company</h2>
+          <h1>Fall Limited Edition Sneakers</h1>
+          <p class="item-details">
+            These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they’ll withstand everything
+            the weather can offer.
+          </p>
+          <div class="price-perc">
+            <p class="discount-price">$125.00</p>
+            <p class="percen">50%</p>
+          </div>
+          <p class="price">$250.00</p>
+          <div class="add-to-cart">
+            <div class="num-of-item">
+              <img class="minus" src="/images/icon-minus.svg" alt="" />
+              <p class="number">1</p>
+              <img class="plus" src="/images/icon-plus.svg" alt="" />
+            </div>
+            <button class="add-to-cart">
+              <img src="/images/icon-cart.svg" alt="" />
+              <p>Add to cart</p>
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- CART ADDED -->
+    <!-- <div class="cart-details">
+      <img src="/images/image-product-1-thumbnail.jpg" alt="" />
+      <div class="item-info">
+        <p>Fall Limted Edition sneakers</p>
+        <p>$125.00 x 3 $375.00</p>
+      </div>
+      <img class="delete" src="/images/icon-delete.svg" alt="" />
+    </div> 
+    <button class="checkout-btn">Checkout</button> -->
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    <script src="/app.js"></script>
+  </body>
+</html>
